@@ -1,0 +1,11 @@
+.wrapper {
+  padding: 0 $mini-gutter; 
+}
+
+.btn {
+  background: rgba($ship-gray, 0.1);
+  color: $white;
+  display: inline-block;
+  margin-bottom: $vertical-rhythm;
+  transition: ease-in-out 0.250s;
+}

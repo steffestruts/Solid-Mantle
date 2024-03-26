@@ -1,0 +1,55 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $alt-font;
+  font-weight: 700 ;
+  margin-bottom: $vertical-rhythm;
+  transition: ease-in-out 0.250s;
+}
+
+h1 { font-size: 1.476rem; line-height: $vertical-rhythm; }
+h2 { font-size: 1.383rem; line-height: $vertical-rhythm; }
+h3 { font-size: 1.296rem; line-height: $vertical-rhythm; }
+h4 { font-size: 1.215rem; line-height: $vertical-rhythm; }
+h5 { font-size: 1.138rem; line-height: $vertical-rhythm; }
+h6 { font-size: 1.067rem; line-height: $vertical-rhythm; }
+
+p {
+  margin-bottom: $vertical-rhythm;
+  transition: ease-in-out 0.250s;
+  a {
+    color: $picton-blue;
+    text-decoration: underline;
+  }
+}
+
+i, em {
+  font-style: italic;
+}
+
+bold, strong {
+  font-weight: 700;
+}
+
+blockquote {
+  background: rgba($ship-gray, 0.05);
+  border-left: 5px solid $valencia;
+  font-style: italic;
+  padding: $vertical-rhythm;
+  margin-bottom: $vertical-rhythm;
+  p {
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.wrapper,
+.container {
+  ol { list-style: upper-roman; }
+  ul { list-style: disc; }
+  ol, ul {
+    margin: 0 0 $vertical-rhythm $vertical-rhythm;
+    li {
+      display: list-item
+    }
+  }
+}

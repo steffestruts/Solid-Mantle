@@ -1,0 +1,16 @@
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  background: rgba($ship-gray, 0.1);
+  color: $ship-gray;
+  font: 1em/#{$vertical-rhythm} $main-font;
+}

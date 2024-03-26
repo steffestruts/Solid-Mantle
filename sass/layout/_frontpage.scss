@@ -1,0 +1,12 @@
+.portfolio-grid {
+   flex-wrap: wrap;
+   justify-content: center;
+  @include flexbox;
+}
+
+.portfolio-item {
+  margin: 0 auto;
+  max-width: 450px;
+  padding: $mini-gutter;
+  transition: ease-in-out 0.250s;
+}
